@@ -1,0 +1,17 @@
+package janus;
+
+public class Main {
+public static void main(String[] args) { 
+	Car vios = new Car(); 
+	vios.Drive(); 
+	vios.stop(); 
+	
+	System.out.println("\nTOYOTA VIOS SPECIFICATIONS: "); 
+	System.out.println("Speed: " + vios.speed +  "km/h"); 
+	System.out.println("Color: " + vios.color); 
+	System.out.println("Price: p" + vios.price); 
+	System.out.println("Name: " + vios.Name); 
+	System.out.println("Tire Type: " + vios.TireType); 
+	
+}  
+}
